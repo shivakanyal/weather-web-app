@@ -25,6 +25,10 @@ form{
 
 .main-content {
     flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-between; */
     /* width: 100%; */
 }
 
@@ -76,7 +80,9 @@ header a:hover{
 }
 
 .portrait {
+    display: block;
     width: 250px;
+     margin-top: 20px;
 }
 
 input{
